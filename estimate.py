@@ -1,5 +1,5 @@
 import math
-import randome
+import random
 import unittest
 
 def wallis(n) :
