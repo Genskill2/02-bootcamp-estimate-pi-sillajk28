@@ -7,7 +7,7 @@ def wallis(n) :
     for i  in  range (1 , n ) :
            pi *= ((4*i*i)/((4*i*i)-1))
     pi*= 2 
-    return( pi)  
+    return pi 
 
 
 def  monte_carlo(n) :
