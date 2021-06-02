@@ -5,7 +5,7 @@ import unittest
 def wallis(n) :
     pi=1
     for i  in  range (1 , n ) :
-           pi *= ((4*i*i)/((4*i*i)-1))
+        pi *= ((4*i*i)/((4*i*i)-1))
     pi*= 2 
     return pi 
 
@@ -15,7 +15,7 @@ def  monte_carlo(n) :
     for i in range ( 0, n ) :
        x=random.random()
        y=random.random()
-       d= math.sqrt(math.pow(x, 2) +math.pow(y, 2) * 1.0)
+       d=math.sqrt( math.pow(x, 2) + math.pow(y, 2) * 1.0)
        if d<=1:
             c_num+=1
     return (4*(c_num/n))
