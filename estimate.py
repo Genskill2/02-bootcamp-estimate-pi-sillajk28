@@ -16,7 +16,7 @@ def  monte_carlo(n) :
        x=random.random()
        y=random.random()
        d= math.sqrt(math.pow(x, 2) +math.pow(y, 2) * 1.0)
-       if d<1:
+       if d<=1:
             c_num+=1
     return (4*(c_num/n))
 
